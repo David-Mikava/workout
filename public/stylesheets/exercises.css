@@ -1,0 +1,260 @@
+.exercise-main {
+  background-color: white;
+  width: 1100px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  box-shadow: 0px 0px 40px black;
+}
+
+.ul-exercise {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.li-exercise {
+  width: 300px;
+  height: 74px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #6f6f6f7d;
+  list-style-type: none;
+  transition: all 0.1s ease;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.li-exercise a {
+  display: flex;
+  width: 300px;
+  height: 74px;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+  color: #3f3f3f;
+  transition: all 0.3s ease;
+}
+
+.li-exercise img {
+  max-width: 72px;
+  border-radius: 10px 0px 0px 10px;
+  padding-right: 15px;
+}
+
+.li-exercise h3 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.ul-tranning {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  align-items: center;
+}
+.li-tranning {
+  height: 260px;
+  width: 820px;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px;
+  background-color: white;
+}
+
+.video {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.div-info-tranning {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+.div-info-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.div-info-tranning * {
+  color: #626262;
+}
+
+.input-result {
+  width: 50px;
+  border-radius: 25px;
+  height: 35px;
+  margin: 111px 0px;
+  text-align: center;
+}
+
+.remove {
+  position: absolute;
+  bottom: 30px;
+  right: 13px;
+  padding: 10px 15px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.remove:hover {
+  background-color: #d9534f;
+}
+
+.input-result::-webkit-inner-spin-button,
+.input-result::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.footer-trannig {
+  padding: 35px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.finish {
+  width: 75px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #626262;
+  box-shadow: 0px 0px 10px #6f6f6f7d;
+  color: white;
+}
+
+.add-tranning {
+  width: 75px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #37b5e5;
+  box-shadow: 0px 0px 10px #6f6f6f7d;
+  color: white;
+}
+
+.add-main {
+  background-color: white;
+  width: 1100px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  box-shadow: 0px 0px 40px black;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 37px;
+}
+
+.add-form-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px 0px;
+  background-color: #efefef;
+  box-shadow: 0px 0px 10px #6f6f6f7d;
+  border: none;
+  margin: 15px;
+  padding-left: 15px;
+}
+
+.add-btn {
+  margin: 15px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #37b5e5;
+  box-shadow: 0px 0px 10px #6f6f6f7d;
+  color: white;
+}
+
+.gif::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #efefef;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #8d8d8d;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  margin-left: 15px;
+}
+
+.existing {
+  padding-left: 50px;
+}
+
+.ul-add-tranning {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.li-add-tranning {
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #6f6f6f7d;
+  list-style-type: none;
+  transition: all 0.1s ease;
+  overflow: hidden;
+  margin: 5px;
+}
+
+@media (max-width: 1000px) {
+  .li-tranning {
+    width: 90%;
+    height: 100%;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+    background-color: white;
+    list-style-type: none;
+  }
+  .video {
+    width: 351px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+  }
+  .div-info-result {
+    padding-left: 0px;
+  }
+  .div-info-tranning {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding: 0px 20px;
+    width: 90%;
+  }
+  .remove {
+    right: 24px;
+  }
+  .exercise-main .a-back {
+    margin: 15px 20px;
+  }
+  .add-main .a-back {
+    margin: 15px 35px;
+  }
+  .add-form {
+    margin-left: 22px;
+  }
+  .existing {
+    padding-left: 38px;
+  }
+  .ul-add-tranning {
+    padding-left: 33px;
+  }
+}
